@@ -1,0 +1,20 @@
+*{margin: 0; padding: 0; font-family: 'Spoqa Han Sans', 'Sans-serif';}
+li{list-style-type: none;}
+a{text-decoration: none;}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    float: right;
+}
+header nav ul li{
+    float: left;
+    margin-top: 10px;
+}
+header nav ul li a{
+    margin-right: 25px;
+    color: #111;
+    font-size: 2rem;
+    font-weight: bold;
+}
