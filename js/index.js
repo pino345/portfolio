@@ -50,7 +50,7 @@ $(document).ready(function () {
 
 
     // Project changes in cursor (x, y) onto the image background position.
-   $kaleidescope.mousemove(function (e) {
+   $(document).mousemove(function (e) {
        x++;
        y++;
 
