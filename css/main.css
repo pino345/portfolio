@@ -35,10 +35,13 @@ header nav ul li a{
     transform-origin: left top;
     transform: rotate(-90deg);
 }
+.footnote h4{
+    font-size: 1.1rem;
+}
 .title{
     align-self: center;
     margin-bottom: 30vh;
-    margin-right: 50px;
+    margin-right: 5vw;
 }
 .title h3{
     font-size: 2rem;
@@ -47,5 +50,5 @@ header nav ul li a{
     font-size: 3rem;
 }
 .title p{
-    font-size: 1.5rem;
+    font-size: 1.07rem;
 }
