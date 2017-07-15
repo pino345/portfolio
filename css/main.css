@@ -15,20 +15,34 @@ header nav ul li{
 header nav ul li a{
     margin-right: 25px;
     color: #111;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     font-family: 'Spoqa Han Sans', sans-serif;
 }
 #cover{
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
 .kaleidoscope{
-    
+}
+.footnote{
+    position: absolute;
+    bottom: -70px;
+    left: 60vw;
+    width: 350px;
+    height: 70px;
+    transform-origin: left top;
+    transform: rotate(-90deg);
 }
 .title{
     align-self: center;
+    margin-bottom: 30vh;
+    margin-right: 50px;
 }
-.footnote{
-    
+.title h3{
+    font-size: 2rem;
+}
+.title h2{
+    font-size: 3rem;
 }
