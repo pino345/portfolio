@@ -15,7 +15,7 @@ header nav ul li{
 header nav ul li a{
     margin-right: 25px;
     color: #111;
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: bold;
 }
 #cover{
@@ -36,10 +36,10 @@ header nav ul li a{
     transform: rotate(-90deg);
 }
 .footnote h4{
-    font-size: 1.1rem;
+    font-size: 17.6px;
 }
 .footnote p{
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 200;
 }
 .title{
@@ -48,11 +48,11 @@ header nav ul li a{
     margin-right: 5vw;
 }
 .title h3{
-    font-size: 2rem;
+    font-size: 32px;
 }
 .title h2{
-    font-size: 3rem;
+    font-size: 48px;
 }
 .title p{
-    font-size: 1.07rem;
+    font-size: 17.12px;
 }
