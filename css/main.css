@@ -56,3 +56,42 @@ header nav ul li a{
 .title p{
     font-size: 17.12px;
 }
+#about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    overflow: hidden;
+}
+#about ul{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.3);
+}
+#about ul li{
+    z-index: -10;
+    position: absolute;
+}
+#about ul li:first-child{
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+    background: url(../images/richard-tilney-bassett-198078.jpg) no-repeat center center/ contain;
+}
+.aboutBg{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/dots.png) no-repeat center center / contain;
+}
+/*
+Photo by Steinar Engeland on Unsplash
+Photo by Richard Tilney-Bassett on Unsplash
+Photo by Wilco Van Meppelen on Unsplash
+Photo by Margarida CSilva on Unsplash
+*/
