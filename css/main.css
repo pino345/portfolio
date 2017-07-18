@@ -49,7 +49,7 @@ header nav ul li a{
 }
 .title{
     align-self: center;
-    margin-bottom: 30vh;
+    margin-bottom: 10vh;
     margin-right: 5vw;
 }
 .title h3{
@@ -74,7 +74,15 @@ header nav ul li a{
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(255,255,255,0.45);
+    background-color: rgba(0,0,0,0.3);
+}
+.aboutDot{
+    position: absolute;
+    z-index: 10;
+    width: 90%;
+    height: 100vh;
+    margin: 0 5%;
+    background: url(../images/dots-text.png) no-repeat center center / contain;
 }
 #about ul li{
     z-index: -10;
@@ -86,14 +94,9 @@ header nav ul li a{
     width: 100%;
     height: 100%;
     background: url(../images/Untitled-1.png) no-repeat left top / cover;
+    opacity: .5;
 }
-.aboutBg{
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-    height: 100vh;
-    background: url(../images/dots.png) no-repeat center center / contain;
-}
+
 /*
 Photo by Steinar Engeland on Unsplash
 Photo by Richard Tilney-Bassett on Unsplash
