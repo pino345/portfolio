@@ -74,7 +74,6 @@ header nav ul li a{
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0,0,0,0.3);
 }
 .aboutDot{
     position: absolute;
@@ -82,7 +81,6 @@ header nav ul li a{
     width: 90%;
     height: 100vh;
     margin: 0 5%;
-    background: url(../images/dots-text.png) no-repeat center center / contain;
 }
 #about ul li{
     z-index: -10;
@@ -93,8 +91,7 @@ header nav ul li a{
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../images/Untitled-1.png) no-repeat left top / cover;
-    opacity: .5;
+    background: url(../images/test3.png) no-repeat left top / cover;
 }
 
 /*
