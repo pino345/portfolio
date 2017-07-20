@@ -7,6 +7,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    padding: 0 1.4%;
 }
 header h1 a{
     display: block;
@@ -17,14 +19,18 @@ header h1 a img{
 }
 header nav{
     float: right;
+    max-width: 38vw;
+}
+header nav ul{
+    width: 100%;
 }
 header nav ul li{
     float: left;
 }
 header nav ul li a{
-    margin-right: 25px;
+    margin-right: 2.3vw;
     color: #111;
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: bold;
 }
 #cover{    
@@ -46,10 +52,10 @@ header nav ul li a{
     transform: rotate(-90deg);
 }
 .footnote h4{
-    font-size: 17.6px;
+    font-size: .9vw;
 }
 .footnote p{
-    font-size: 16px;
+    font-size: .8vw;
     font-weight: 200;
 }
 .title{
@@ -58,42 +64,104 @@ header nav ul li a{
     margin-right: 5vw;
 }
 .title h3{
-    font-size: 32px;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
 .title h2{
-    font-size: 48px;
+    font-size: 2vw;
 }
 .title p{
-    font-size: 17.12px;
+    margin-top: 1%;
+    font-size: 1vw;
 }
 #about{
+    position: relative;
     width: 100%;
+    min-width: 1200px;
     height: 100vh;
-    overflow: hidden;
+    min-height: 700px;
 }
 .aboutBg{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
     width: 100%;
     height: 100%;
-    background: url(../images/shadowplayBg.png) no-repeat center center;
-}
-.aboutBg:before{
-    content: "";
-    position: absolute;
-    width:100%;
-    height: 100%;
-    background: rgba(0,0,0,.2);
+    background: url(../images/shadowplayBg.png) no-repeat center center / cover;
 }
 .dots{
-    position: relative;
-    width: 90%;
-    height: 80vh;
-    background: url(../images/dots.png) no-repeat center center / cover;
-}
-.dots li{
     position: absolute;
-    top: 38%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    min-width: 1200px;
+    height: 80vh;
+    min-height: 700px;
+    background: url(../images/dots.png) no-repeat center center;
+    background-size: 100% auto;
+}
+#about nav{
+    position: relative;
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+#about nav ul{
+    position: absolute;
+    top: 39%;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+#about nav ul li{
+    font-size: calc(20px + .5vw);
+    font-weight: bold; 
+}
+#about nav ul li:nth-child(1), #about nav ul li:nth-child(3){
+    flex-basis: 22.2%;
+}
+#about nav ul li:nth-child(2){
+    flex-basis: 55.6%;
+}
+#about nav ul li{
+    cursor:zoom-in;
+}
+.myName, .skill{
+    box-sizing: border-box;
+    padding-left: 22%;
+}
+.myName:before, .skill:before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 14%;
+    height: 100%;
+    background-color: #eee;
+}
+.myName span{
+    display: inline-block;
+    width: 32%;
+}
+.skill span{
+    display: inline-block;
+    width: 16%;
+}
+.intro{
+    box-sizing: border-box;
+    padding-left: 19%;
+}
+.intro:before{
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 37%;
+    height: 100%;
+    background-color: #eee;    
+}
+.intro span{
+    display: inline-block;
+    width: 6.2%;
+}
+.webP{
+    padding-top: 5.5%;
 }
