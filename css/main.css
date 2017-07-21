@@ -115,7 +115,7 @@ header nav ul li a{
 }
 #about nav ul{
     position: absolute;
-    top: 39%;
+    top: 43%;
     width: 100%;
     height: 35px;
     display: flex;
@@ -145,6 +145,7 @@ header nav ul li a{
     width: 14%;
     height: 100%;
     background-color: #eee;
+    box-shadow: 2px 2px 5px black;
 }
 .myName span{
     display: inline-block;
@@ -164,7 +165,8 @@ header nav ul li a{
     position: absolute;
     width: 37%;
     height: 100%;
-    background-color: #eee;    
+    background-color: #eee;  
+    box-shadow: 2px 2px 5px black;
 }
 .intro span{
     display: inline-block;
@@ -172,4 +174,63 @@ header nav ul li a{
 }
 .webP{
     padding-top: 5.5%;
+}
+.nameHover{
+    opacity: 0;
+    position: absolute;
+    top:0%;
+    left: 11.1%;
+    width: 0%;
+    height: 0vh;
+    background: rgba(255,255,255,.9);
+    transition: all 1s ease-in-out;
+}
+.introHover{
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 0%;
+    height: 0vh;
+    background: rgba(255,255,255,.9);
+    transition: all 1s ease-in-out;
+}
+.skillHover{
+    opacity: 0;
+    position: absolute;
+    top:0%;
+    left: 88.9%;
+    width: 0%;
+    height: 0vh;
+    background: rgba(255,255,255,.9);
+    transition: all 1s ease-in-out;
+}
+#about nav ul li:nth-child(1):hover .myName, #about nav ul li:nth-child(2):hover .intro, #about nav ul li:nth-child(3):hover .skill{
+    display: none;
+}
+#about nav ul li:nth-child(1):hover .nameHover{
+    opacity: 1;
+    top: -730%;
+    left: 0;
+    width: 22.2%;
+    height: 64.6vh;
+}
+#about nav ul li:nth-child(2):hover .introHover{
+    opacity: 1;
+    top: -730%;
+    left: 22.2%;
+    width: 55.6%;
+    height: 64.6vh;
+}
+#about nav ul li:nth-child(3):hover .skillHover{
+    opacity: 1;
+    top: -730%;
+    left: 77.8%;
+    width: 22.2%;
+    height: 64.6vh;
+}
+
+#work{
+    width: 100%;
+    height: 100vh;
 }
