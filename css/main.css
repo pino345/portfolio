@@ -80,156 +80,57 @@ header nav ul li a{
     min-width: 1200px;
     height: 100vh;
     min-height: 700px;
-}
-.aboutBg{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url(../images/testBg.png) no-repeat center center;
+    overflow: hidden;
+    background: url(../images/Untitled-2.png) no-repeat center center;
     background-size: 100% auto;
 }
-.aboutBg:before{
-    content: "";
+#about div{
+    width: 0;
+    height: 0;
+}
+.tri-1{
     position: absolute;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,.2);
+    top: -70px;
+    left: 20px;
+    border: 200px solid transparent;
+    border-bottom: 350px solid #b5b5b5;
 }
-.dots{
+.tri-2{
+    z-index: 1;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 90%;
-    min-width: 1200px;
-    height: 80vh;
-    min-height: 700px;
-    background: url(../images/dots-test.png) no-repeat center center;
-    background-size: 100% auto;
+    top: 100px;
+    left: 220px;
+    border: 200px solid transparent;
+    border-top: 350px solid #bbb;
 }
-#about nav{
-    position: relative;
-    width: 95%;
-    height: 100%;
-    margin: 0 auto;
-}
-#about nav ul{
+.tri-3{
     position: absolute;
-    top: 43%;
-    width: 100%;
-    height: 35px;
-    display: flex;
-    justify-content: space-between;
+    top: -70px;
+    left: 570px;
+    border: 200px solid white;
+    border-bottom: 350px solid transparent;
+    background: url(../images/8a4506075cf8f8cfb025f525028e4aa6.jpg) no-repeat center top;
 }
-#about nav ul li{
-    font-size: calc(20px + .5vw);
-    font-weight: bold; 
-}
-#about nav ul li:nth-child(1), #about nav ul li:nth-child(3){
-    flex-basis: 22.2%;
-}
-#about nav ul li:nth-child(2){
-    flex-basis: 55.6%;
-}
-#about nav ul li{
-    cursor:zoom-in;
-}
-.myName, .skill{
-    box-sizing: border-box;
-    padding-left: 22%;
-}
-.myName:before, .skill:before{
-    content: "";
-    z-index: -1;
+.name{
     position: absolute;
-    width: 14%;
-    height: 100%;
-    background-color: #eee;
-    box-shadow: 2px 2px 5px black;
+    top: 70%;
+    left: 16.5%;
+    width: 12%;
+    height: 10%;
+    text-align: center;
 }
-.myName span{
-    display: inline-block;
-    width: 32%;
+.name span{
+    font-weight: bold;
+    font-size: 38px;
+    color: #2a2a2a;
 }
-.skill span{
-    display: inline-block;
-    width: 16%;
-}
-.intro{
-    box-sizing: border-box;
-    padding-left: 19%;
-}
-.intro:before{
-    content: "";
-    z-index: -1;
+.myself{
     position: absolute;
-    width: 37%;
-    height: 100%;
-    background-color: #eee;  
-    box-shadow: 2px 2px 5px black;
+    top: 18.5%;
+    left: 32.8%;
+    width: 33%;
+    height: 27%;
 }
-.intro span{
-    display: inline-block;
-    width: 6.2%;
-}
-.webP{
-    padding-top: 5.5%;
-}
-.nameHover{
-    opacity: 0;
-    position: absolute;
-    top:0%;
-    left: 11.1%;
-    width: 0%;
-    height: 0vh;
-    background: rgba(255,255,255,.9);
-    transition: all 1s ease-in-out;
-}
-.introHover{
-    opacity: 0;
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    width: 0%;
-    height: 0vh;
-    background: rgba(255,255,255,.9);
-    transition: all 1s ease-in-out;
-}
-.skillHover{
-    opacity: 0;
-    position: absolute;
-    top:0%;
-    left: 88.9%;
-    width: 0%;
-    height: 0vh;
-    background: rgba(255,255,255,.9);
-    transition: all 1s ease-in-out;
-}
-#about nav ul li:nth-child(1):hover .myName, #about nav ul li:nth-child(2):hover .intro, #about nav ul li:nth-child(3):hover .skill{
-    display: none;
-}
-#about nav ul li:nth-child(1):hover .nameHover{
-    opacity: 1;
-    top: -730%;
-    left: 0;
-    width: 22.2%;
-    height: 64.6vh;
-}
-#about nav ul li:nth-child(2):hover .introHover{
-    opacity: 1;
-    top: -730%;
-    left: 22.2%;
-    width: 55.6%;
-    height: 64.6vh;
-}
-#about nav ul li:nth-child(3):hover .skillHover{
-    opacity: 1;
-    top: -730%;
-    left: 77.8%;
-    width: 22.2%;
-    height: 64.6vh;
-}
-
 #work{
     width: 100%;
     height: 100vh;
