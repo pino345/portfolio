@@ -84,53 +84,7 @@ header nav ul li a{
     background: url(../images/Untitled-2.png) no-repeat center center;
     background-size: 100% auto;
 }
-#about div{
-    width: 0;
-    height: 0;
-}
-.tri-1{
-    position: absolute;
-    top: -70px;
-    left: 20px;
-    border: 200px solid transparent;
-    border-bottom: 350px solid #b5b5b5;
-}
-.tri-2{
-    z-index: 1;
-    position: absolute;
-    top: 100px;
-    left: 220px;
-    border: 200px solid transparent;
-    border-top: 350px solid #bbb;
-}
-.tri-3{
-    position: absolute;
-    top: -70px;
-    left: 570px;
-    border: 200px solid white;
-    border-bottom: 350px solid transparent;
-    background: url(../images/8a4506075cf8f8cfb025f525028e4aa6.jpg) no-repeat center top;
-}
-.name{
-    position: absolute;
-    top: 70%;
-    left: 16.5%;
-    width: 12%;
-    height: 10%;
-    text-align: center;
-}
-.name span{
-    font-weight: bold;
-    font-size: 38px;
-    color: #2a2a2a;
-}
-.myself{
-    position: absolute;
-    top: 18.5%;
-    left: 32.8%;
-    width: 33%;
-    height: 27%;
-}
+
 #work{
     width: 100%;
     height: 100vh;
