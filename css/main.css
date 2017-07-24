@@ -84,7 +84,51 @@ header nav ul li a{
     background: url(../images/Untitled-2.png) no-repeat center center;
     background-size: 100% auto;
 }
-
+.firstFloor{
+    position: relative;
+    transform: translateY(33%);
+    width: 100%;
+    height: 37.3%;
+    border: 1px solid black;
+}
+.firstFloor li{
+    position: absolute;
+    bottom: 0;
+}
+.tri-1{
+    left: 20px;
+    width: 12.5%;
+    height: 0;    
+    padding-left: 10.6%;
+    padding-bottom: 18.7%;
+}
+.tri-1:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: -285px;
+    border-left: 285px solid transparent;
+    border-right: 289px solid transparent;
+    border-bottom: 500px solid #b5b5b5;
+}
+.tri-2{
+    width: 12.5%;
+    height: 0;    
+    padding-right: 10.6%;
+    padding-bottom: 18.7%;
+    transform: translateX(50%);
+}
+.tri-2:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-right: -285px;
+    border-right: 285px solid transparent;
+    border-left: 289px solid transparent;
+    border-top: 500px solid #fff;
+}
 #work{
     width: 100%;
     height: 100vh;
