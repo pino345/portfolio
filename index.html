@@ -5,11 +5,12 @@
     <title>김명아 | 포트폴리오</title>
     <link href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/kaleidoscope.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/kaleidoscope.js"></script>
-    
+    <script src="js/1.9.1jquery.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
 </head>
 <body>
     <header>
@@ -57,19 +58,48 @@
     -->
     </section>
     <section id="work">
-        <div class="work01">
-            <a href="work/work01.html" class="ajax-popup-link" data-lightbox="work" data-title="Work01">Work#1</a>
-        </div>
-        <div class="work02">
-            <a href="work/illust/%EC%BA%A1%EC%B2%98.JPG" data-lightbox="work" data-title="Work02">Work#2</a>
-        </div>
-        <div class="work03">
-            <a href="work/photoshop/%EC%83%81%EC%84%B8%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B9%80%EB%AA%85%EC%95%84.jpg" data-lightbox="work" data-title="Work03">Work#3</a>
-        </div>
-        <div class="work04">
-            <a href="work/ui/PC%EC%9B%B9-%EA%B9%80%EB%AA%85%EC%95%84.jpg" data-lightbox="work" data-title="Work04">Work#4</a>
-        </div>
-    </section>
-<script src="js/ajax.js"></script>
+        <ul>
+            <li>
+                <a href="work/test-ajax.html" class="ajax-popup-link">
+                    <div class="workImage01">
+                        <span>#Work1</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="work/test-ajax.html" class="ajax-popup-link">
+                    <div class="workImage02">
+                        <span></span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="work/test-ajax.html" class="ajax-popup-link">
+                    <div class="workImage03">
+                        <span></span>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <script type="text/javascript">
+            $('.ajax-popup-link').magnificPopup({
+                type: 'ajax',
+                alignTop: true,
+                overflowY: 'scroll',
+                gallery: {
+                    enabled: true
+                }
+            });
+        </script>
+        
+        <image src="images/work-22.png" style="float: left; width: 35%; height: aute;"></image>
+        
+        <image src="images/work-111.png" style="float: left; width: 35%; height: aute;"></image>
+        
+        <image src="images/work-44.png" style="float: left; width: 35%; height: aute;"></image>
+        
+        <image src="images/work-555.png" style="float: left; width: 40%; height: aute;"></image>
+        <image src="images/work-text2.png"></image>
+    </section> 
 </body>
 </html>

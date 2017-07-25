@@ -231,7 +231,6 @@ header nav ul li a{
     left: -500px;
     width: 500px;
     height: 450px;
-    background: url(../images/work-11.png) no-repeat center center / contain;
 }
 .workImage01 span{
     float: right;
@@ -239,8 +238,6 @@ header nav ul li a{
     font-size: 2em;
 }
 .workImage02{
-    background: url(../images/work-2.png) no-repeat center center;
 }
 .workImage03{
-    background: url(../images/work-c.png) no-repeat center center;
 }
