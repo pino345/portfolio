@@ -85,6 +85,7 @@ header nav ul li a{
 #about ul{
     float: left;
 }
+/*
 .firstFloor{
     width: 100%;
     height: 37.3%;
@@ -202,7 +203,7 @@ header nav ul li a{
     border-left: 204.6px solid transparent;
     border-right: 204.6px solid #fff;
     border-bottom: 355.6px solid #fff;
-}
+}*/
 #work{
     width: 100%;
     height: 100vh;
