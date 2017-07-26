@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>김명아 | 포트폴리오</title>
     <link href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
@@ -44,42 +45,60 @@
         </div>
     </section>
     <section id="about">
-       <!--
-        <ul class="firstFloor">
-            <li class="tri-11"></li>
-            <li class="tri-12"></li>
-            <li class="tri-13"></li>
-        </ul>
-        <ul class="secondFloor">
-            <li class="tri-21"></li>
-            <li class="tri-22"></li>
-            <li class="tri-23"></li>
-        </ul>
-    -->
+        <script type="text/javascript">
+            $(function () {
+                $(window).scroll(function () {
+                    var aboutShow = $("header").height() + $("#cover").height; 
+                if ($(this).scrollTop() >= aboutShow) {
+                $('#about').css('opacity', '1').css('transition','all 2s');
+                } else {
+                $('#about').css('opacity', '1').css('transition','all 2s');}
+                })
+            });
+        </script>
     </section>
     <section id="work">
         <ul>
+            <div class="firstFloor">
             <li>
                 <a href="work/test-ajax.html" class="ajax-popup-link">
                     <div class="workImage01">
-                        <span>#Work1</span>
+                        <span>Work#1</span>
                     </div>
                 </a>
             </li>
             <li>
                 <a href="work/test-ajax.html" class="ajax-popup-link">
                     <div class="workImage02">
-                        <span></span>
+                        <span>Work#2</span>
                     </div>
                 </a>
             </li>
             <li>
                 <a href="work/test-ajax.html" class="ajax-popup-link">
                     <div class="workImage03">
-                        <span></span>
+                        <span>Work#3</span>
                     </div>
                 </a>
             </li>
+            </div>
+            <div class="workTitle"></div>
+            <div class="secondFloor">
+            <li>
+                <a href="work/test-ajax.html" class="ajax-popup-link">
+                    <div class="workImage04">
+                        <span>Work#4</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="work/test-ajax.html" class="ajax-popup-link">
+                    <div class="workImage05">
+                        <span>Work#5</span>
+                    </div>
+                </a>
+            </li>
+            </div>
         </ul>
         <script type="text/javascript">
             $('.ajax-popup-link').magnificPopup({
@@ -91,15 +110,17 @@
                 }
             });
         </script>
+        <!--
+        <image src="images/work-text2.png" style="float: left;"></image>
         
         <image src="images/work-22.png" style="float: left; width: 35%; height: aute;"></image>
         
         <image src="images/work-111.png" style="float: left; width: 35%; height: aute;"></image>
         
-        <image src="images/work-44.png" style="float: left; width: 35%; height: aute;"></image>
+        <image src="images/work-44.png" style="float: left; width: 30%; height: aute;"></image>
         
-        <image src="images/work-555.png" style="float: left; width: 40%; height: aute;"></image>
-        <image src="images/work-text2.png"></image>
+        <image src="images/work-555.png" style="float: left; width: 30%; height: aute;"></image>
+        -->
     </section> 
 </body>
 </html>

@@ -80,164 +80,28 @@ header nav ul li a{
     overflow: hidden;
     background: url(../images/Untitled-2.png) no-repeat center center;
     background-size: 100% auto;
+    opacity: 0;
 }
-#about ul{
-    float: left;
-}
-/*
-.firstFloor{
-    width: 100%;
-    height: 37.3%;
-}
-.firstFloor li{
-    float: left;
-}
-.tri-11{
-    width: 10.8%;
-    height: 0;    
-    padding-left: 10.8%;
-    padding-bottom: 18.7%;
-    overflow: hidden;
-}
-.tri-11:after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: -204.6px;
-    border-left: 204.6px solid transparent;
-    border-right: 204.6px solid #fff;
-    border-bottom: 355.6px solid #b5b5b5;
-}
-.tri-12{
-    width: 10.8%;
-    height: 0;    
-    padding-left: 10.8%;
-    padding-bottom: 18.7%;
-    overflow: hidden;
-}
-.tri-12:after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: -204.6px;
-    border-left: 204.6px solid #fff;
-    border-right: 204.6px solid #ddd;
-    border-bottom: 355.6px solid #eee;
-}
-.tri-13{
-    width: 10.8%;
-    height: 0;    
-    padding-left: 10.8%;
-    padding-bottom: 18.7%;
-    overflow: hidden;
-}
-.tri-13:after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: -204.6px;
-    border-left: 204.6px solid #ddd;
-    border-right: 204.6px solid #fff;
-    border-bottom: 355.6px solid #b5b5b5;
-}
-.secondFloor{
-    width: 100%;
-    height: 37.3%;
-    overflow: hidden;
-}
-.secondFloor li{
-    float: left;
-}
-.tri-21{
-    width: 10.8%;
-    height: 0;    
-    padding-left: 10.8%;
-    padding-bottom: 18.7%;
-    overflow: hidden;
-}
-.tri-21:after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: -204.6px;
-    border-left: 204.6px solid #fff;
-    border-right: 204.6px solid #434343;
-    border-bottom: 355.6px solid #fff;
-}
-.tri-22{
-    width: 10.8%;
-    height: 0;    
-    padding-left: 10.8%;
-    padding-bottom: 18.7%;
-    overflow: hidden;
-}
-.tri-22:after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: -204.6px;
-    border-left: 204.6px solid #434343;
-    border-right: 204.6px solid #fff;
-    border-top: 355.6px solid transparent;
-    border-top-image: url(../images/tri-22.JPG)
-}
-.tri-23{
-    width: 10.8%;
-    height: 0;    
-    padding-left: 10.8%;
-    padding-bottom: 18.7%;
-    overflow: hidden;
-}
-.tri-23:after{
-    content: "";
-    display: block;
-    width: 0;
-    height: 0;
-    margin-left: -204.6px;
-    border-left: 204.6px solid transparent;
-    border-right: 204.6px solid #fff;
-    border-bottom: 355.6px solid #fff;
-}*/
 #work{
-    position: relative;
     width: 100%;
     height: 100vh;
+    padding-top: 100px;
+    background: url(../images/Untitled-3333.png) no-repeat center center;
+    background-size: 100% auto;
 }
 #work ul{
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    width: 50%;
-    height: 50%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
-#work ul li{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-    height: 50%;
+.firstFloor{
+    display: flex;
 }
-.workImage01{
-    position: absolute;
-    top: -250px;
-    left: -500px;
-    width: 500px;
-    height: 450px;
+.workTitle{
+    align-self: center;
+    width: 343px;
+    height: 105px;
+    background: url(../images/work-text.png) no-repeat center center;
 }
-.workImage01 span{
-    float: right;
-    font-weight: bold;
-    font-size: 2em;
-}
-.workImage02{
-}
-.workImage03{
+.secondFloor{
+    display: flex;
 }
