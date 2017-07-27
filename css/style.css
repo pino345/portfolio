@@ -87,12 +87,18 @@ header nav ul li a{
     width: 100%;
     height: 100vh;
     margin-top: 50px;
-    background: url(../images/Untitled-3333.png) no-repeat center center;
-    background-size: 100% auto;
 }
 #work ul{
     display: flex;
     flex-direction: column;
+}
+#work span{
+    position: absolute;
+    font-weight: bold;
+    font-size: calc(1rem + 1vw);
+}
+#work a{
+    position: absolute;
 }
 .firstFloor{
     display: flex;
@@ -111,7 +117,6 @@ header nav ul li a{
     flex-basis: 33.33%;
 }
 .work01{
-    position: absolute;
     right: 0;
     transform: translate(2%,11%);
     width: 88.5%;
@@ -122,8 +127,44 @@ header nav ul li a{
     height: 100%;
     background: url(../images/work%1.png) no-repeat center center / contain;
 }
-.work02{
+.workImage01 span{
+    top: 10%;
+    left: 0%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+.image-box:hover span{
+    opacity: 1;
+}
+.linkBox{
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+}
+.linkBox a{
+    width: 45%;
+    height: calc(30px + 1vh);
+    border: 1px solid black;
+    background-color: rgba(255,255,255,.5);
+    font-weight: bold;
+    text-align: center;
+    line-height: calc(30px + 1vh);
+}
+.demo{
+    position: absolute;
+    right: 0;
+}
+.image-box:hover .linkBox{
+    opacity: 1;
+}
+.work02{
     bottom: 0;
     transform: translate(4.3%,-1%);
     width: 110%;
@@ -134,8 +175,13 @@ header nav ul li a{
     height: 100%;
     background: url(../images/work%2.png) no-repeat center center / contain;
 }
+.workImage02 span{
+    top: -10%;
+    left: 20%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
 .work03{
-    position: absolute;
     transform: translate(4%,-10%);
     width: 90%;
     height: 90%;
@@ -145,11 +191,16 @@ header nav ul li a{
     height: 100%;
     background: url(../images/work%3.png) no-repeat center center / contain;
 }
+.workImage03 span{
+    top: 11%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
 .workTitle{
     align-self: center;
     width: 343px;
     height: 10vh;
-    background: url(../images/work-text.png) no-repeat center center;
+    background: url(../images/work-text.png) no-repeat center center / contain;
 }
 .secondFloor{
     display: flex;
@@ -172,13 +223,74 @@ header nav ul li a{
     height: 100%;
     background: url(../images/work%4.png) no-repeat center center / contain;
 }
+.workImage04 span{
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
 .work05{
     position: absolute;
-    transform: translate(44%,3%);
+    transform: translate(10%,-6%);
     width: 80%;
-    height: 89%;
+    height: 100%;
 }
 .workImage05{
     height: 100%;
     background: url(../images/work%5.png) no-repeat center center / contain;
 }
+.workImage05 span{
+    top: 8%;
+    left: 12%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+#contact{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/dino-reichmuth-147745.png) no-repeat center center;
+    background-size: 100% auto;
+}
+#contact ul{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width:70%; 
+    height: 30%;
+    display: flex;
+}
+#contact ul li{
+    flex-basis: 25%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#contact ul li:nth-child(1){
+    background-color: rgba(0,0,0,.6);
+}
+#contact ul li:nth-child(2){
+    background-color: rgba(0,0,0,.7);
+}
+#contact ul li:nth-child(3){
+    background-color: rgba(0,0,0,.8);
+}
+#contact ul li:nth-child(4){
+    background-color: rgba(0,0,0,.9);
+}
+#contact ul li p, #contact ul li i{
+    width: 100%;
+    align-self: center;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+#contact ul li i{
+    width: 30%;
+}
+#contact ul li:nth-child(3) i{
+    height: 10%;
+    background: url(../images/mark-github.png) no-repeat center center;
+    background-size: 100% auto;
+}
+
