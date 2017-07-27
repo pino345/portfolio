@@ -189,7 +189,7 @@ header nav ul li a{
 .workImage03{
     width: 100%;
     height: 100%;
-    background: url(../images/work%3.png) no-repeat center center / contain;
+    background: url(../images/work-3.png) no-repeat center center / contain;
 }
 .workImage03 span{
     top: 11%;
@@ -221,7 +221,7 @@ header nav ul li a{
 }
 .workImage04{
     height: 100%;
-    background: url(../images/work%4.png) no-repeat center center / contain;
+    background: url(../images/work-4.png) no-repeat center center / contain;
 }
 .workImage04 span{
     opacity: 0;
@@ -235,7 +235,7 @@ header nav ul li a{
 }
 .workImage05{
     height: 100%;
-    background: url(../images/work%5.png) no-repeat center center / contain;
+    background: url(../images/work-5.png) no-repeat center center / contain;
 }
 .workImage05 span{
     top: 8%;
