@@ -6,6 +6,8 @@
     <title>김명아 | 포트폴리오</title>
     <link href="https://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="css/loading-style.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="css/kaleidoscope.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css">
@@ -15,6 +17,22 @@
     <script src="js/jquery.magnific-popup.js"></script>
 </head>
 <body>
+    <div id="loadingBox">
+        <div class="loading">
+            <div class="loading__square"></div>
+            <div class="loading__square"></div>
+            <div class="loading__square"></div>
+            <div class="loading__square"></div>
+            <div class="loading__square"></div>
+            <div class="loading__square"></div>
+            <div class="loading__square"></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(window).load(function(){
+            $('#loadingBox').hide();
+        });
+    </script>
     <header>
         <h1>
             <a href="#">
