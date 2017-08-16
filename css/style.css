@@ -78,39 +78,48 @@ header nav ul li a{
     width: 100%;
     min-width: 1200px;
     height: 100vh;
-    overflow: hidden;
+    /*overflow: hidden;
     background: url(../images/Untitled-2.png) no-repeat center center;
     background-size: 100% auto;
-    opacity: 0;
+    opacity: 0;*/
 }
-#about ul{
-    position: relative;
-    width: 100%;
-    margin-left: 220px;
-    margin-top: 130px;
+.aboutBox{
+    height: inherit;
+    padding: 50px 100px;
+    box-sizing: border-box;
+    display: flex;
 }
-#about ul li{
-    position: absolute;
-    
-    width: 0;
-    height: 0;
-    border: 200px solid black;
+.category{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
-#work{
+.category h3{
+    align-self: center;
+    text-align: left;
+    font-size: 300%;
+}
+.imageBox{
+    width: 50%;
+    background-color: gold;
+}
+#web{
     width: 100%;
     height: 100vh;
-    margin-top: 50px;
+    margin: 50px 0;
+    background: url(../images/Untitled-2.jpg) no-repeat center center / contain;
 }
-#work ul{
+#web ul{
     display: flex;
     flex-direction: column;
 }
-#work span{
+#web span{
     position: absolute;
     font-weight: bold;
     font-size: calc(1rem + 1vw);
 }
-#work a{
+#web a{
     position: absolute;
 }
 .firstFloor{
@@ -255,6 +264,61 @@ header nav ul li a{
     left: 12%;
     opacity: 0;
     transition: all .5s ease-in-out;
+}
+#graphic{
+    width: 100%;
+}
+#graphic > h1{
+    position: relative;
+    margin: -30px auto 30px;
+    padding-top: 10px;
+    text-align: center;
+    width: 150px;
+    font-size: 2vw;
+}
+#graphic > h1:before{
+    content: "";
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 10;
+    left: 0;
+    padding: 10px 10px;
+    border: 5px solid black;
+    border-left: none;
+    border-right: none;
+}
+#graphic .itemPadding{
+    padding: 0 0 30px 70px;
+}
+#graphic .item{
+    position: relative;
+    float: left;
+    margin: 0 49px 58px 0;
+    padding: 9px 0 0;
+    border-top: 1px solid black;
+}
+.typeA{
+}
+.grimWrap{
+    display: flex;
+}
+.grim{
+    width: 256px;
+}
+.grimText{
+    width: 256px;
+    align-self: flex-end;
+}
+.typeB{
+    width: 300px;
+}
+.typeB .grimWrap{
+    flex-direction: column;
+}
+.typeB .grimText{
+    align-self: baseline;
+    margin-top: 10px;
 }
 #contact{
     position: relative;
