@@ -78,10 +78,10 @@ header nav ul li a{
     width: 100%;
     min-width: 1200px;
     height: 100vh;
-    /*overflow: hidden;
+    overflow: hidden;
     background: url(../images/Untitled-2.png) no-repeat center center;
     background-size: 100% auto;
-    opacity: 0;*/
+    opacity: 0;
 }
 .aboutBox{
     height: inherit;
@@ -108,7 +108,7 @@ header nav ul li a{
     width: 100%;
     height: 100vh;
     margin: 50px 0;
-    background: url(../images/Untitled-2.jpg) no-repeat center center / contain;
+    /*background: url(../images/Untitled-2test.png) no-repeat center center / contain;*/
 }
 #web ul{
     display: flex;
@@ -267,6 +267,7 @@ header nav ul li a{
 }
 #graphic{
     width: 100%;
+    height: 100vh;
 }
 #graphic > h1{
     position: relative;
