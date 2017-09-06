@@ -268,7 +268,6 @@ header nav ul li a{
 }
 #graphic{
     width: 100%;
-    height: 100vh;
 }
 #graphic > h1{
     position: relative;
@@ -291,43 +290,30 @@ header nav ul li a{
     border-right: none;
 }
 #graphic .itemPadding{
-    padding: 0 0 30px 70px;
+    text-align: center;
 }
 #graphic .item{
-    position: relative;
-    float: left;
+    display: inline-block;
     margin: 0 49px 58px 0;
     padding: 9px 0 0;
     border-top: 1px solid black;
-}
-.typeA{
 }
 .grimWrap{
     display: flex;
 }
 .grim{
     width: 256px;
+    text-align: left;
 }
 .grimText{
     width: 256px;
     align-self: flex-end;
 }
-.typeB{
-    width: 300px;
-}
-.typeB .grimWrap{
-    flex-direction: column;
-}
-.typeB .grimText{
-    align-self: baseline;
-    margin-top: 10px;
-}
 #contact{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(../images/dino-reichmuth-147745.png) no-repeat center center;
-    background-size: 100% auto;
+    background: url(../images/dino-reichmuth-147745.png) no-repeat center center / cover;
 }
 #contact ul{
     position: absolute;
