@@ -78,11 +78,9 @@ header nav ul li a{
 #about{
     position: relative;
     width: 100%;
-    min-width: 1200px;
     height: 100vh;
     overflow: hidden;
-    background: url(../images/Untitled-2.png) no-repeat center center;
-    background-size: 100% auto;
+    background: url(../images/Untitled-2.png) no-repeat center center / cover;
     opacity: 0;
 }
 .aboutBox{
