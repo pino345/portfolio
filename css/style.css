@@ -292,6 +292,9 @@ header nav ul li a{
     padding: 9px 0 0;
     border-top: 1px solid black;
 }
+#graphic .item a{
+    
+}
 .grimWrap{
     display: flex;
 }
@@ -310,7 +313,7 @@ header nav ul li a{
 .grim i{
     opacity: 0;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     margin-top: 125px;
     margin-left: 120px;
     font-size: 2em;
