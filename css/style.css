@@ -145,7 +145,7 @@ header nav ul li a{
     top: 10%;
     left: 0%;
     opacity: 0;
-    transition: all .5s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 .image-box span{
     text-shadow: 1px 1px 1px white;
@@ -292,9 +292,6 @@ header nav ul li a{
     padding: 9px 0 0;
     border-top: 1px solid black;
 }
-#graphic .item a{
-    
-}
 .grimWrap{
     display: flex;
 }
@@ -323,8 +320,13 @@ header nav ul li a{
     opacity: 1;
 }
 .grimText{
-    width: 256px;
-    align-self: flex-end;
+    width: 240px;
+    margin-top: 1em;
+    margin-left: 16px;
+    align-self: flex-start;
+    line-height: 22px;
+    text-align: left;
+    text-indent: 7px;
 }
 #contact{
     position: relative;
