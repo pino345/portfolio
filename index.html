@@ -47,7 +47,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#web">Web</a></li>
                 <li><a href="#graphic">Graphic</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -66,11 +66,11 @@
         </div>
     </section>
     <section id="about">
-        
+
         <script type="text/javascript">
             $(function () {
                 $(window).scroll(function () {
-                    var aboutShow = $("header").height() + $("#cover").height; 
+                    var aboutShow = $("header").height() + $("#cover").height;
                 if ($(this).scrollTop() >= aboutShow) {
                 $('#about').css('opacity', '1').css('transition','all 2s');
                 } else {
@@ -87,7 +87,7 @@
                     <div class="workImage01 image-box">
                         <span>#포트폴리오</span>
                         <div class="linkBox">
-                            <a href="web/work01.html" class="ajax-popup-link">concept</a>
+                            <a href="web/work01.html" class="ajax-popup-link-w">concept</a>
                             <a href="https://pino345.github.io/portfolio/" class="demo" target="_blank">demo<i class="fa fa-external-link" aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                     <div class="workImage02 image-box">
                         <span>#CSS3 #Selector</span>
                         <div class="linkBox">
-                            <a href="web/work02.html" class="ajax-popup-link">concept</a>
+                            <a href="web/work02.html" class="ajax-popup-link-w">concept</a>
                             <a href="https://pino345.github.io/core-element" class="demo" target="_blank">demo<i class="fa fa-external-link" aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -109,35 +109,35 @@
                     <div class="workImage03 image-box">
                         <span>#반응형웹</span>
                         <div class="linkBox">
-                            <a href="web/work03.html" class="ajax-popup-link">concept</a>
+                            <a href="web/work03.html" class="ajax-popup-link-w">concept</a>
                             <a href="https://pino345.github.io/media-query" class="demo" target="_blank">demo<i class="fa fa-external-link" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
             </li>
             </div>
-            
+
             <div class="workTitle"></div>
-            
+
             <div class="secondFloor">
             <li>
                 <div class="work04">
                     <div class="workImage04 image-box">
                         <span>#공공기관</span>
                         <div class="linkBox">
-                            <a href="web/work04.html" class="ajax-popup-link">concept</a>
+                            <a href="web/work04.html" class="ajax-popup-link-w">concept</a>
                             <a href="https://pino345.github.io/position" class="demo" target="_blank">demo<i class="fa fa-external-link" aria-hidden="true"></i></a>
                         </div>
                     </div>
                 </div>
             </li>
-            
+
             <li>
                 <div class="work05">
                     <div class="workImage05 image-box">
                         <span>#오뚜기 #쇼핑몰</span>
                         <div class="linkBox">
-                            <a href="web/work05.html" class="ajax-popup-link">concept</a>
+                            <a href="web/work05.html" class="ajax-popup-link-w">concept</a>
                             <a href="https://pino345.github.io/company/sub/sub2.html" class="demo" target="_blank">demo<i class="fa fa-external-link" aria-hidden="true"></i></a>
                         </div>
                     </div>
@@ -145,12 +145,25 @@
             </li>
             </div>
         </ul>
+        <script type="text/javascript">
+            $('.ajax-popup-link-w').magnificPopup({
+                type: 'ajax',
+                curcor: 'mfp-ajax-cur',
+                alignTop: true,
+                overflowY: 'scroll',
+                gallery: {
+			            enabled: true,
+			            navigateByImgClick: true,
+		            	preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		              }
+            });
+        </script>
     </section>
     <section id="graphic">
         <h1><em>graphics</em></h1>
         <div class="itemPadding">
             <article class="item">
-                <a href="graphics/illust-01.html" class="ajax-popup-link">
+                <a href="graphics/illust-01.html" class="ajax-popup-link-p">
                     <div class="grimWrap">
                         <div class="grim">
                             <h4>illust</h4>
@@ -166,7 +179,7 @@
                 </a>
             </article>
             <article class="item">
-                <a href="graphics/illust-02.html" class="ajax-popup-link">
+                <a href="graphics/illust-02.html" class="ajax-popup-link-p">
                     <div class="grimWrap">
                         <div class="grim">
                            <h4>illust</h4>
@@ -182,7 +195,7 @@
                 </a>
             </article>
             <article class="item">
-                <a href="graphics/illust-03.html" class="ajax-popup-link">
+                <a href="graphics/illust-03.html" class="ajax-popup-link-p">
                     <div class="grimWrap">
                         <div class="grim">
                             <h4>illust</h4>
@@ -198,7 +211,7 @@
                 </a>
             </article>
             <article class="item">
-                <a href="graphics/hello.html" class="ajax-popup-link">
+                <a href="graphics/hello.html" class="ajax-popup-link-p">
                     <div class="grimWrap">
                         <div class="grim">
                             <h4>illust + photoshop</h4>
@@ -214,7 +227,7 @@
                 </a>
             </article>
             <article class="item">
-                <a href="graphics/photo-01.html" class="ajax-popup-link">
+                <a href="graphics/photo-01.html" class="ajax-popup-link-p">
                     <div class="grimWrap">
                         <div class="grim">
                             <h4>photoshop</h4>
@@ -230,7 +243,7 @@
                 </a>
             </article>
             <article class="item">
-                <a href="graphics/uiux.html" class="ajax-popup-link">
+                <a href="graphics/uiux.html" class="ajax-popup-link-p">
                     <div class="grimWrap">
                         <div class="grim">
                             <h4>photoshop</h4>
@@ -248,15 +261,16 @@
             <div style="clear:both;"></div>
         </div>
         <script type="text/javascript">
-            $('.ajax-popup-link').magnificPopup({
+            $('.ajax-popup-link-p').magnificPopup({
                 type: 'ajax',
-                alignTop: true, 
+                curcor: 'mfp-ajax-cur',
+                alignTop: true,
                 overflowY: 'scroll',
                 gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-		      }
+			            enabled: true,
+			            navigateByImgClick: true,
+		            	preload: [0,1] // Will preload 0 - before current, and 1 after the current image
+		              }
             });
         </script>
     </section>
