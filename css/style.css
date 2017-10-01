@@ -4,6 +4,10 @@ a{text-decoration: none; color: #111;}
 header{
     width: 100%;
     height: 15vh;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,6 +55,10 @@ header nav ul li a{
     width: 100%;
     height: 80vh;
     margin-bottom: 9vh;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
     display: flex;
     justify-content: space-between;
 }
@@ -103,6 +111,10 @@ header nav ul li a{
     /*background: url(../images/Untitled-2test.png) no-repeat center center / contain;*/
 }
 #web ul{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
     display: flex;
     flex-direction: column;
 }
@@ -115,6 +127,10 @@ header nav ul li a{
     position: absolute;
 }
 .firstFloor{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
     display: flex;
     height: 45vh;
 }
@@ -220,6 +236,10 @@ header nav ul li a{
     background: url(../images/work-text.png) no-repeat center center / contain;
 }
 .secondFloor{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
     display: flex;
     height: 45vh;
 }
@@ -293,9 +313,17 @@ header nav ul li a{
     border-top: 1px solid black;
 }
 .grimWrap{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
     display: flex;
 }
 .grim{
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;
     display: flex;
     flex-flow: column;
     width: 256px;
