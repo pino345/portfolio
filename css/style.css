@@ -383,6 +383,8 @@ header nav ul li a{
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;
     display: flex;
+    flex-flow: column;
+    justify-content: center;
 }
 #contact ul li:nth-child(1){
     background-color: rgba(0,0,0,.6);
@@ -398,18 +400,13 @@ header nav ul li a{
 }
 #contact ul li p, #contact ul li i{
     width: 100%;
-    align-self: center;
     margin: 10px 0;
     color: white;
     text-align: center;
 }
 #contact ul li i{
-    width: 30%;
-}
-#contact ul li:nth-child(3) i{
-    height: 10%;
-    background: url(../images/mark-github.png) no-repeat center center;
-    background-size: 100% auto;
+    font-size: 1.3em;
+    font-weight: bold;
 }
 @media all and (min-width: 1025px){}
 @media all and (max-width: 1024px){}
