@@ -2,6 +2,6 @@
 #custom-content img {max-width: 100%;margin-bottom: 10px;}
 #custom-content a{display: block; width: 100px; height: 30px; padding: 5px 10px; margin: 10px; margin-left: 0; border: 2.5px solid black; background: white; color: black; font-weight: bold; text-align: center; line-height: 30px;}
 #custom-content i{clear: both; float: left; margin: 10px 0;}
-.color-palette{float: left; margin: 10px 0 0 10px; width: 220px; height: 20px; border: 1px solid red;}
-.color-palette li{height: 100%;}
+/*.color-palette{float: left; margin: 10px 0 0 10px; width: 220px; height: 20px; border: 1px solid red;}
+.color-palette li{height: 100%;}*/
 #custom-content p{clear: both;}
