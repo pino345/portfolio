@@ -1,5 +1,5 @@
 # portfolio
-web Design X Publisher
+web Design X Publishing
 
 안녕하세요.
 
